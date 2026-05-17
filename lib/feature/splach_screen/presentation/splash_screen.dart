@@ -1,10 +1,11 @@
-import 'package:bookia/core/theme/constant/app_color.dart';
-import 'package:bookia/core/theme/constant/app_images.dart';
-import 'package:bookia/core/theme/constant/app_text.dart';
+import 'package:bookia/core/app_manager/app_images.dart';
+import 'package:bookia/core/app_manager/app_text.dart';
 import 'package:bookia/core/widgets/custom_text.dart';
 import 'package:bookia/feature/welcome_screen/presentation/welcome_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
+import '../../../core/style/app_color.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
